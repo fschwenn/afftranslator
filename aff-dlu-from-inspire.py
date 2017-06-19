@@ -106,15 +106,15 @@ for entry in databaseentries:
     
 
 
-adfiold = open(knowledgebasepath+'/aff-dlu-from-inspire-old.afb', 'w')
-adfiold.write('# affiliation -> dlu database from INST database of INSPIRE (with old institutes)\n')
+#adfiold = open(knowledgebasepath+'/aff-dlu-from-inspire-old.afb', 'w')
+#adfiold.write('# affiliation -> dlu database from INST database of INSPIRE (with old institutes)\n')
 
 
 
 countriescc = {}
 normcities = {}
 #informations from INSPIRE
-institutes = search_pattern(p="980__a:INSTITUTION  not 980:DELETED not 980:DEAD not 001:910325 not 001:910584")
+institutes = search_pattern(p="980__a:INSTITUTION  not 980:DELETED not 001:910325 not 001:910584")
 #institutes = search_pattern(p="980__a:INSTITUTION  not 980:DELETED not 980:DEAD not 001:910325 not 001:910584 and not 510__w:b")
 print len(institutes),'institutes found'
 
@@ -249,18 +249,17 @@ for recid in institutes:
                     else:
                         afflines = [ department + ', ' + organization + ', ' + address,
                                      organization + ', ' + department + ', ' + address]
-                #workaround: Serbia and not Montenegro
                 for affline in afflines:
-                    adfioldwrite(affline, afflineappendix)
+                    #adfioldwrite(affline, afflineappendix)
                     affapplines.append((affline, afflineappendix))
                     if country != '' and not re.search(country, affline, flags=re.IGNORECASE):
-                        adfioldwrite(affline + ', ' + country, afflineappendix)
+                        #adfioldwrite(affline + ', ' + country, afflineappendix)
                         affapplines.append((affline + ', ' + country, afflineappendix))
                         if city != '' and not re.search(city, affline, flags=re.IGNORECASE):
-                            adfioldwrite(affline + ', ' + plz+city + ', ' + country, afflineappendix)
+                            #adfioldwrite(affline + ', ' + plz+city + ', ' + country, afflineappendix)
                             affapplines.append((affline + ', ' + plz+city + ', ' + country, afflineappendix))
                     if city != '' and not re.search(city, affline, flags=re.IGNORECASE):
-                        adfioldwrite(affline + ', ' + plz+city, afflineappendix)
+                        #adfioldwrite(affline + ', ' + plz+city, afflineappendix)
                         affapplines.append((affline + ', ' + plz+city, afflineappendix))
             else:
                 print '???', address, icn
@@ -276,11 +275,15 @@ for recid in institutes:
             if dead == 'DEAD':
                 old = True
                 print '%s is DEAD' % (icn)
-        if not old:
+        if old:
+            if not icn in oldicns:
+                oldicns.append(icn)
+        else:
             relations = get_fieldvalues(recid, '510__w')
             for history in relations:
                 if history == 'b': 
                     old = True
+                    oldicns.append(icn)
                     print '%s has a successor' % (icn)
         if  not old and 'a' in relations:
             for entry in institute['510']:
@@ -290,23 +293,30 @@ for recid in institutes:
                     elif subentry[0] == 'w':
                         relation = subentry[1]
                 if relation == 'a':
-                    oldicns.append(othericn)
+                    if not othericn in oldicns:
+                        oldicns.append(othericn)
                     print '%s has a predecessor: %s' % (icn, othericn)
-        if not old:
-            newaffdict[icn] = affapplines
+        newaffdict[icn] = affapplines
 
-
-#workaround: Serbia and not Montenegro
-adfiold.write('Montenegro;   Unlisted, ME;   unlisted ME;   ME;   ;\n')
-adfiold.close()
 
 adfi = open(knowledgebasepath+'/aff-dlu-from-inspire.afb', 'w')
 adfi.write('# affiliation -> dlu database from INST database of INSPIRE (without old institutes)\n')
+adfiold = open(knowledgebasepath+'/aff-dlu-from-inspire-old.afb', 'w')
+adfiold.write('# affiliation -> dlu database from INST database of INSPIRE (with old institutes)\n')
 for icn in  newaffdict.keys():
+    for (affline, afflineappendix) in newaffdict[icn]:
+        adfioldwrite(affline, afflineappendix)
     if not icn in oldicns:
         for (affline, afflineappendix) in newaffdict[icn]:
             adfiwrite(affline, afflineappendix)
+
+#workaround: Serbia and not Montenegro
+adfiold.write('Montenegro;   Unlisted, ME;   unlisted ME;   ME;   ;\n')
+adfi.write('Montenegro;   Unlisted, ME;   unlisted ME;   ME;   ;\n')
+
+
 adfi.close()
+adfiold.close()
 
 
 
