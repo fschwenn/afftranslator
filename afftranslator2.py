@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 #
 # Version 2.4.1: 07.06.17 (by Florian Schwennsen)
+# Thanks to Heath, Hille, Kirsten, Tanja for bug reports and advices.
 #
 # This program translates an affiliation given as a plain string into the standardized ICN (or DLU)
 # of the SPIRES/ INSPIRE database.
@@ -1533,7 +1534,10 @@ class institute:
                         self.saffs.add(saff)
             words = set(regexpspace.split(re.sub(' , ',' ', naff1)))
             #PLZ#plz = extractPLZ(aff)
-            acros = extractAcronyms(naff)
+            if re.search('[a-z]', aff):
+                acros = extractAcronyms(naff)
+            else:
+                acros = set([])
             #print " plz = ", plz
             unitype = getunitype(naff)
             for wo in words:
