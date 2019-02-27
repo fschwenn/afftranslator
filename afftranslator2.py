@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 #
 # Version 2.4.1: 07.06.17 (by Florian Schwennsen)
-# Thanks to Heath, Hille, Kirsten, Tanja for bug reports and advices.
+# Thanks to Heath, Hille, Julika, Kirsten, Tanja for bug reports and advices.
 #
 # This program translates an affiliation given as a plain string into the standardized ICN (or DLU)
 # of the SPIRES/ INSPIRE database.
@@ -53,7 +53,7 @@ epsilon = 1
 #penalty if trying to match TU vs Uni (or similar) #opt 070412
 unipenalty = -3.5
 #bonus for matching numbers
-numberbonus = 2;
+numberbonus = 2
 
 #penalty to take ICN which has no DLU #opt 140412
 icnpenalty = -3.8
@@ -616,7 +616,7 @@ def generateknowledgebase(file, forced):
                 else:
                     try:
                         if len(parts) > 4:
-                            icndictionary[icn] = standardinstitute(icn, parts[2], parts[0], parts[4], parts[3], sou, parts[-1])
+                            icndictionary[icn] = standardinstitute(icn, parts[2], parts[0], parts[4], parts[3], sou, parts[5])
                             newicns.add(icn)
                         else:
                             tdlu = ''
@@ -1289,6 +1289,7 @@ def enrichcandidates(kmenge, insti):
 
 
 def bestmatchsimple(string, identifier, run, onlycore=False):
+    isexactmatch = False
     global FILREPORT
     FILREPORT = codecs.open(tmppath + '/afftranslatorreport2', encoding='utf-8', mode='a+')
     if not globals().has_key('icndictionary'): loadknowledgebase('aff-translator.pickle')
@@ -1306,6 +1307,7 @@ def bestmatchsimple(string, identifier, run, onlycore=False):
     if icnsaff.institutes.has_key(list(inst.saffs)[0]):
         if verbatim > 1: FILREPORT.write(' exact match\n')
         printcomment(' exact match')
+        isexactmatch = True
         kandidatenmenge = icnsaff.institutes[list(inst.saffs)[0]]
         run = 3
     else:
@@ -1411,6 +1413,9 @@ def bestmatchsimple(string, identifier, run, onlycore=False):
         else:
             finalresult = [(res[0], res[1].icn, res[2]) for res in result]
     FILREPORT.close()
+    if isexactmatch and len(finalresult) == 1:
+        efinalresult = (finalresult[0][0], finalresult[0][1], finalresult[0][0])
+        finalresult[0] = efinalresult
     resulthash[string] = finalresult
     return finalresult
 
