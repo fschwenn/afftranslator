@@ -893,6 +893,8 @@ Misr University for Science & Technology, Al-Motamayez District, 6th of October 
 Misr University for Science & Technology, Al-Motamayez District, 6th of October City, Egypt;   MUST, Giza;   NONE;   EG;   Giza;   ;   ;
 Misr University for Science & Technology, Al-Motamayez District, 6th of October City, Giza, Egypt;   MUST, Giza;   NONE;   EG;   Giza;   ;   ;
 Misr University for Science & Technology, Al-Motamayez District, 6th of October City, Giza;   MUST, Giza;   NONE;   EG;   Giza;   ;   ;
+Laboratoire Jean Perrin (LJP), 4, place Jussieu, Tour 32-33, Case Courrier 114, F-75252 Paris Cedex 05;   LJP, Paris;   NONE;   FR;   Paris;   ;   grid.464007.1;
+Laboratoire Jean Perrin (LJP), 4, place Jussieu, Tour 32-33, Case Courrier 114, F-75252 Paris Cedex 05, France;   LJP, Paris;   NONE;   FR;   Paris;   ;   grid.464007.1;
 Institute of Applied Technical Physics, Zheijiang Province, Hangzhou 310012 China;   IATP, Hangzhou;   Hangzhou Inst. Appl. Tech. Phys.;   CN;   Hangzhou;   ;   ;
 OECD Nuclear Energy Agency, 38, Blvd. Suchet, F-75016 Paris, France;   OECD, Nucl. Energy Agency;   OECD Paris;   FR;   Paris;   ;   ;
 Galileo Galilei Institute for Theoretical Physics, Arcetri, Italy;   GGI, Florence;   Florence GGI;   IT;   Arcetri;   ;   ;
@@ -1652,6 +1654,10 @@ National Institutes of Natural Sciences (NINS), 2F Kamiyacho 4-3-13 Toranomon, M
 National Institutes of Natural Sciences (NINS), 2F Kamiyacho 4-3-13 Toranomon, Minato-ku, Tokyo 105-0001, Japan;   NINS, Tokyo;   Tokyo NINS;   JP;   Tokyo;   ;   ;
 Shandong Normal University (SDNU), No.88 East Wenhua Rd, Lixia District, 250014 Jinan;   Shandong Norm. U.;   NONE;   CN;   Jinan;   ;   ;
 Shandong Normal University (SDNU), No.88 East Wenhua Rd, Lixia District, 250014 Jinan, P.R. CHINA;   Shandong Norm. U.;   NONE;   CN;   Jinan;   ;   ;
+Unité de Biologie Fonctionnelle et Adaptative (BFA), Université Paris Diderot, Bât. Buffon, rue Hélène Brion, F-75205 Paris cedex 13;   BFA, Paris;   NONE;   FR;   Paris;   ;   ;
+Unite de Biologie Fonctionnelle et Adaptative (BFA), Universite Paris Diderot, Bat. Buffon, rue Helene Brion, F-75205 Paris cedex 13;   BFA, Paris;   NONE;   FR;   Paris;   ;   ;
+Unité de Biologie Fonctionnelle et Adaptative (BFA), Université Paris Diderot, Bât. Buffon, rue Hélène Brion, F-75205 Paris cedex 13, France;   BFA, Paris;   NONE;   FR;   Paris;   ;   ;
+Unite de Biologie Fonctionnelle et Adaptative (BFA), Universite Paris Diderot, Bat. Buffon, rue Helene Brion, F-75205 Paris cedex 13, France;   BFA, Paris;   NONE;   FR;   Paris;   ;   ;
 Headquarters, Asia Pacific Center for Theoretical Physics (APCTP), San 31, Hyoja-dong, Nam-gu, Pohang 790-784;   APCTP, Pohang;   Pohang APCTP;   KR;   Pohang;   CORE;   grid.482264.e;
 Headquarters, Asia Pacific Center for Theoretical Physics (APCTP), San 31, Hyoja-dong, Nam-gu, Pohang 790-784, Korea;   APCTP, Pohang;   Pohang APCTP;   KR;   Pohang;   CORE;   grid.482264.e;
 Asia Pacific Center for Theoretical Physics (APCTP), Headquarters, San 31, Hyoja-dong, Nam-gu, Pohang 790-784;   APCTP, Pohang;   Pohang APCTP;   KR;   Pohang;   CORE;   grid.482264.e;
@@ -1844,8 +1850,8 @@ Astronomy Department, Boston University, 725 Commonwealth Avenue, Boston, MA  02
 Boston University, Astronomy Department, 725 Commonwealth Avenue, Boston, MA  02215;   Boston U., Dept. Astron.;   NONE;   US;   Boston;   ;   ;
 Boston University, Astronomy Department, 725 Commonwealth Avenue, Boston, MA  02215, USA;   Boston U., Dept. Astron.;   NONE;   US;   Boston;   ;   ;
 Malardalens Hogskola, Dept. of Math. and Phys., Box 883 721 23, S-72103 Vasteras, Sweden;   Malardalen U.;   Vaesteras U.;   SE;   Vasteras;   ;   ;
-Guizhou Normal University, Guiyang 550001;   Guizhou Norm. U.;   NONE;   CN;   Guiyang;   ;   grid.443395.c;
-Guizhou Normal University, Guiyang 550001, China;   Guizhou Norm. U.;   NONE;   CN;   Guiyang;   ;   grid.443395.c;
+Guizhou Normal University, 116 Baoshan North Road, Guiyang, Guizhou, 550001;   Guizhou Norm. U.;   NONE;   CN;   Guiyang;   ;   grid.443395.c;
+Guizhou Normal University, 116 Baoshan North Road, Guiyang, Guizhou, 550001, China;   Guizhou Norm. U.;   NONE;   CN;   Guiyang;   ;   grid.443395.c;
 Silicon Dynamics, Inc., 4917 Utah Dr., Ames, IA 50010;   Silicon Dynamics, Ames;   Silicon Dyn Ames;   US;   Ames;   ;   ;
 Silicon Dynamics, Inc., 4917 Utah Dr., Ames, IA 50010, USA;   Silicon Dynamics, Ames;   Silicon Dyn Ames;   US;   Ames;   ;   ;
 Primera Engineers Ltd., Downtown Chicago Office, 100 S. Wacker Drive, Suite 700, Chicago, Illinois 60606;   Primera Eng., Chicago;   Primera Engin. Chicago;   US;   Chicago;   ;   ;
@@ -3608,6 +3614,8 @@ University at Buffalo (UB) the State University of New York (SUNY), 12 Capen Hal
 Seacom Engineering College, Jl No-2, Jaladhulagori, Sankrail, Howrah, West Bengal-711103, India;   Howrah, Seacom Eng. Coll.;   Howrah Seacom Eng. Coll.;   IN;   Howrah;   ;   ;
 El Mul Technologies Ltd., P.O. Box 2106, Rehovot 76120, Israel;   El Mul Technologies, Rehovot;   NONE;   IL;   Rehovot;   ;   ;
 National ILan University, 1, Sec. 1 Shen-Lung Road, I-Lan 260, Taiwan, Republic of China;   Taiwan, Natl. ILan U.;   NONE;   TW;   ILan;   ;   ;
+Songshan Lake Materials Laboratory (SSLAB), A1, Building, Chuangxin City, Songshan Lake University, Dongguan, Guangdong,  523808;   SSLAB, Dongguan;   NONE;   CN;   Dongguan;   ;   ;
+Songshan Lake Materials Laboratory (SSLAB), A1, Building, Chuangxin City, Songshan Lake University, Dongguan, Guangdong,  523808, China;   SSLAB, Dongguan;   NONE;   CN;   Dongguan;   ;   ;
 Department of Physics, University of New Brunswick (UNB), University of New Brunswick, Dept. of Physics, P.O. Box 4400, Fredericton, NB, CANADA E3B 5A3;   New Brunswick U.;   Fredericton New Brunswick U.;   CA;   Fredericton;   ;   ;
 University of New Brunswick (UNB), Department of Physics, University of New Brunswick, Dept. of Physics, P.O. Box 4400, Fredericton, NB, CANADA E3B 5A3;   New Brunswick U.;   Fredericton New Brunswick U.;   CA;   Fredericton;   ;   ;
 Departamento de Física Teórica, Universidad de Zaragoza, Pedro Cerbuna 12, E-50009 Zaragoza;   Zaragoza U.;   Zaragoza U.;   ES;   Zaragoza;   CORE;   grid.11205.37;
@@ -8829,6 +8837,10 @@ University of Kinshasa, Kinshasa;   Kinshasa U.;   Kinshasa U.;   CD;   ;   ;   
 University of Kinshasa, Kinshasa, Democratic Republic of the Congo;   Kinshasa U.;   Kinshasa U.;   CD;   ;   ;   ;
 University of Colorado at Denver, Campus Box 172, 1200 Larimer St., Denver, CO 80204;   Colorado U., Denver;   Colorado U. Denver;   US;   Denver;   ;   ;
 University of Colorado at Denver, Campus Box 172, 1200 Larimer St., Denver, CO 80204, USA;   Colorado U., Denver;   Colorado U. Denver;   US;   Denver;   ;   ;
+Géosciences Montpellier, Place Eugène Bataillon, F-34095 Montpellier;   Geosciences, Montpellier;   NONE;   FR;   Montpellier;   ;   ;
+Geosciences Montpellier, Place Eugene Bataillon, F-34095 Montpellier;   Geosciences, Montpellier;   NONE;   FR;   Montpellier;   ;   ;
+Géosciences Montpellier, Place Eugène Bataillon, F-34095 Montpellier, France;   Geosciences, Montpellier;   NONE;   FR;   Montpellier;   ;   ;
+Geosciences Montpellier, Place Eugene Bataillon, F-34095 Montpellier, France;   Geosciences, Montpellier;   NONE;   FR;   Montpellier;   ;   ;
 nCube Corp., Foster City, CA 94404;   nCube, Foster City;   NONE;   US;   Foster City;   ;   ;
 nCube Corp., Foster City, CA 94404, USA;   nCube, Foster City;   NONE;   US;   Foster City;   ;   ;
 Pulsar Physics, De Bongerd 23, NL-3762 XA Soest, The Netherlands;   Pulsar Physics, Soest;   Pulsar Phys. Soest;   NL;   Soest;   ;   ;
@@ -9460,6 +9472,8 @@ Osservatorio Astronomico di Trieste, Istituto Nazionale di Astrofisica (INAF), v
 Osservatorio Astronomico di Trieste, Istituto Nazionale di Astrofisica (INAF), via Tiepolo, 11, I-34131 Trieste, Italy;   Trieste Observ.;   Trieste Astron. Obs.;   IT;   Trieste;   ;   grid.462980.1;
 Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Trieste, via Tiepolo, 11, I-34131 Trieste;   Trieste Observ.;   Trieste Astron. Obs.;   IT;   Trieste;   ;   grid.462980.1;
 Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Trieste, via Tiepolo, 11, I-34131 Trieste, Italy;   Trieste Observ.;   Trieste Astron. Obs.;   IT;   Trieste;   ;   grid.462980.1;
+Kosar University of Bojnord, 17th Shahrivar Street, Bojnourd;   Kosar U., Bojnord;   NONE;   IR;   ;   ;   grid.470229.a;
+Kosar University of Bojnord, 17th Shahrivar Street, Bojnourd, Iran;   Kosar U., Bojnord;   NONE;   IR;   ;   ;   grid.470229.a;
 New England Electric Wire Corp., Lisbon, NH 03585;   New England Electric Wire, Lisbon;   New England Electr Wire Lisbon;   US;   Lisbon;   ;   ;
 New England Electric Wire Corp., Lisbon, NH 03585, USA;   New England Electric Wire, Lisbon;   New England Electr Wire Lisbon;   US;   Lisbon;   ;   ;
 North China Petroleum Inst., Guan, Hebei, China;   North China Petroleum Inst.;   Guan North-China Petrol. Inst.;   CN;   Guan;   ;   ;
@@ -17506,7 +17520,7 @@ KLTE - ATOMKI Joint Institute of Physics, University of Debrecen, Kossuth Univer
 Roanoke College, Dept. of Math., Comp. Sci. and Physics, 221 College Lane, Salem, VA  24153;   Roanoke Coll.;   Roanoke Coll. Salem;   US;   Salem;   ;   ;
 Roanoke College, Dept. of Math., Comp. Sci. and Physics, 221 College Lane, Salem, VA  24153, USA;   Roanoke Coll.;   Roanoke Coll. Salem;   US;   Salem;   ;   ;
 Ecole Nationale Superieure de Physique de Marseille (ENSPM), Universiti d'Aix - Marseille II, Cedex 20, Domaine Universitaire de St-Jerome, F-13397 Marseille, CEDEX 13, France;   ENSPM, Marseille;   NONE;   FR;   Marseille;   ;   ;
-Univ. of Three Gorges, Dept. of Physics, Yichang 443000, Hubei, China;   Three Gorges U.;   Yichang Three Gorges U.;   CN;   Yichang;   ;   grid.254148.e;
+China Three Gorges University, 8 University Road, Yichang, Hubei, 443002;   Three Gorges U.;   Yichang Three Gorges U.;   CN;   Yichang;   ;   grid.254148.e;
 Department of Physics and Astronomy, University of Tennessee, 401 Nielsen Physics Bldg., Knoxville, TN  37996-1200;   Tennessee U.;   Tennessee U. Knoxville;   US;   Knoxville;   CORE;   grid.411461.7;
 Department of Physics and Astronomy, University of Tennessee, 401 Nielsen Physics Bldg., Knoxville, TN  37996-1200, USA;   Tennessee U.;   Tennessee U. Knoxville;   US;   Knoxville;   CORE;   grid.411461.7;
 University of Tennessee, Department of Physics and Astronomy, 401 Nielsen Physics Bldg., Knoxville, TN  37996-1200;   Tennessee U.;   Tennessee U. Knoxville;   US;   Knoxville;   CORE;   grid.411461.7;
@@ -19140,6 +19154,8 @@ University of Washington, Center for Experimental Nuclear Physics and Astrophysi
 Linde Kryotechnik, CH-8422 Pfungen, Switzerland;   Linde Kryotechnik, Pfungen;   Linde Pfungen;   CH;   Pfungen;   ;   ;
 National Fisheries Univ. of Pusan, Dept. of Physics, 599-1 Daeyun-dong Nam-gu, Pusan 608, South Korea;   Pusan, Natl. Fisheries U.;   NONE;   KR;   Pusan;   ;   ;
 Kyushu Kyoritsu Univ., Faculty of Engineering, Orio, Kitakyushu-shi 807, Japan;   Kyushu Kyoritsu U.;   Kitakyushu U.;   JP;   Kitakyushu-shi;   ;   ;
+Yangtze River Delta Physics Research Center (IOPLY), 123 Zhongguancun Avenue, Liyang, Jiangsu, 213000;   IOPLY, Liyang;   NONE;   CN;   Liyang;   ;   ;
+Yangtze River Delta Physics Research Center (IOPLY), 123 Zhongguancun Avenue, Liyang, Jiangsu, 213000, China;   IOPLY, Liyang;   NONE;   CN;   Liyang;   ;   ;
 Indiana University, Southeast, Natural Sciences Div., New Albany, IN 47150;   Indiana U. Southeast;   Indiana U. Southeast New Albany;   US;   New Albany;   ;   ;
 Indiana University, Southeast, Natural Sciences Div., New Albany, IN 47150, USA;   Indiana U. Southeast;   Indiana U. Southeast New Albany;   US;   New Albany;   ;   ;
 Moscow N.E. Bauman Tech. Univ., Kaluga Div., Bazhenova 4, 248600 Kaluga, Russia;   Bauman Tech. U., Kaluga;   NONE;   RU;   Kaluga;   ;   ;
