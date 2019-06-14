@@ -33,8 +33,8 @@ from operator import mul
 import traceback
 #from sets import Set
 
-from invenio.search_engine import search_pattern
-from invenio.search_engine import get_most_popular_field_values
+#from invenio.search_engine import search_pattern
+#from invenio.search_engine import get_most_popular_field_values
 
 
 
@@ -139,6 +139,8 @@ afftoicnaverage = 6
 afftoicnweight = -.1 * 1
 #threshold to check string without accents instead
 thresholdquality = 5 * 1 - 2
+#maximal allowed number of candidates befor trying to reduce it by just 2 or 1 icnwords
+maxnumcandidates = 100
 
 
 ##to estimate maximal possible match of an affiliation string
@@ -1345,12 +1347,16 @@ def bestmatchsimple(string, identifier, run, onlycore=False):
                 liste = [(lenicnword(np), np) for np in regexpspace.split(naff1) if lenicnword(np) > 0]
                 if len(liste) > 0:
                     liste.sort(anticmp)
+                    if verbatim > 1:
+                        FILREPORT.write('     - check liste: ' + ', '.join(['(%i, %s)' % tup for tup in liste]) + '\n')
                     kandidatenmenge2 = kandidatenmenge
                     for tupel in liste:
                         kandidatenmenge = kandidatenmenge.intersection(icnword.institutes[tupel[1]])
                         if verbatim > 1: FILREPORT.write('   - kandidatenmenge [all words] = '+str(len(kandidatenmenge))+'\n')
                     if len(kandidatenmenge) == 0:
-                        if len(liste) >= 2:
+                        if len(kandidatenmenge2) < maxnumcandidates:
+                            kandidatenmenge = kandidatenmenge2
+                        elif len(liste) >= 2:
                             kandidatenmenge = kandidatenmenge2.intersection(icnword.institutes[liste[0][1]].intersection(icnword.institutes[liste[1][1]]))
                             if verbatim > 1: FILREPORT.write('   - kandidatenmenge [2words] = '+str(len(kandidatenmenge))+'\n')
                             if len(kandidatenmenge) == 0:
