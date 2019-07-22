@@ -33,8 +33,8 @@ from operator import mul
 import traceback
 #from sets import Set
 
-#from invenio.search_engine import search_pattern
-#from invenio.search_engine import get_most_popular_field_values
+from invenio.search_engine import search_pattern
+from invenio.search_engine import get_most_popular_field_values
 
 
 
