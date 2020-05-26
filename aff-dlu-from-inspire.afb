@@ -2051,8 +2051,6 @@ Merkaz Hakolim, New Square, New York, NY 10977, USA;   Merkaz Hakolim, N.Y.;   N
 Siberian Federal University (SFU), 79 Svobodny Prospect, Krasnoyarsk 660041;   Siberian Federal U., Krasnoyarsk;   NONE;   RU;   Krasnoyarsk;   ;   ;
 Siberian Federal University (SFU), 79 Svobodny Prospect, Krasnoyarsk 660041, Russia;   Siberian Federal U., Krasnoyarsk;   NONE;   RU;   Krasnoyarsk;   ;   ;
 Professional School South Westphalia, Department of Hagen, Haldener road 182, 58095 Hagen, Germany;   Hagen, Fachhochsch.;   Hagen Fachhochsch.;   DE;   Hagen;   ;   ;
-United States Naval Observatory (USNO), U.S. Naval Observatory (USNO), Department of the Navy, 3450 Massachusetts Avenue, NW, Washington, DC 20392-5420;   Naval Observ., Wash., D.C.;   Naval Obs. Washington;   US;   Washington;   ;   grid.440354.2;
-United States Naval Observatory (USNO), U.S. Naval Observatory (USNO), Department of the Navy, 3450 Massachusetts Avenue, NW, Washington, DC 20392-5420, USA;   Naval Observ., Wash., D.C.;   Naval Obs. Washington;   US;   Washington;   ;   grid.440354.2;
 Pontificia Univ. Catolica, Inst. de Fisica Teorica, 05014 Sao Paulo, SP, Brazil;   Sao Paulo, Pont. U. Catolica;   Sao Paulo Cathol. U.;   BR;   Sao Paulo;   ;   ;
 Acharya Prafulla Chandra Roy Government College, Himachal Vihar, Matigara, Siliguri-734010;   APC Roy Gov. Coll.;   NONE;   IN;   Siliguri;   ;   ;
 Acharya Prafulla Chandra Roy Government College, Himachal Vihar, Matigara, Siliguri-734010, India;   APC Roy Gov. Coll.;   NONE;   IN;   Siliguri;   ;   ;
@@ -4747,8 +4745,8 @@ Inst. for Social, Behavioral and, Economic Research (ISBER), 2201 North Hall, Un
 Inst. for Social, Behavioral and, Economic Research (ISBER), 2201 North Hall, University of California, Santa Barbara, CA 93106-2150, USA;   Santa Barbara, ISBER;   NONE;   US;   Santa Barbara;   ;   ;
 Universidad Autonoma Metropolitana (UAM), San Rafael Atlixco No. 186, Col. Vicentina, Iztapalapa, 09340;   Mexico City U., Iztapalapa;   Mexico Metrop. Auton. U. Iztapalapa;   MX;   Iztapalapa;   CORE;   grid.7220.7;
 Universidad Autonoma Metropolitana (UAM), San Rafael Atlixco No. 186, Col. Vicentina, Iztapalapa, 09340, Mexico;   Mexico City U., Iztapalapa;   Mexico Metrop. Auton. U. Iztapalapa;   MX;   Iztapalapa;   CORE;   grid.7220.7;
-Toyohashi University of Technology, 1-1 Hibarigaoka, Tempaku-cho, 441-8580 Toyohashi, Aichi;   Toyohashi U. Tech.;   NONE;   JP;   Toyohashi;   ;   ;
-Toyohashi University of Technology, 1-1 Hibarigaoka, Tempaku-cho, 441-8580 Toyohashi, Aichi, Japan;   Toyohashi U. Tech.;   NONE;   JP;   Toyohashi;   ;   ;
+Toyohashi University of Technology, 1-1 Hibarigaoka, Tempaku-cho, 441-8580 Toyohashi, Aichi;   Toyohashi U. Tech.;   NONE;   JP;   Toyohashi;   ;   grid.412804.b;
+Toyohashi University of Technology, 1-1 Hibarigaoka, Tempaku-cho, 441-8580 Toyohashi, Aichi, Japan;   Toyohashi U. Tech.;   NONE;   JP;   Toyohashi;   ;   grid.412804.b;
 Bundesamt fur Strahlenschutz, Federal Office for Radiation Protection, Postfach 10 01 49, D-38201  Salzgitter, Germany;   BFS, Salzgitter;   NONE;   DE;   Salzgitter;   ;   ;
 MUONS, Inc., MUONS, Inc., 552 N. Batavia Ave., Batavia, IL 60510-1274;   MUONS Inc., Batavia;   Muons Batavia;   US;   Batavia;   CORE;   ;
 MUONS, Inc., MUONS, Inc., 552 N. Batavia Ave., Batavia, IL 60510-1274, USA;   MUONS Inc., Batavia;   Muons Batavia;   US;   Batavia;   CORE;   ;
@@ -8459,10 +8457,8 @@ Zaozhuang University (UZZ), Beian Road, Zaozhuang, Shandong, 277160, China;   Za
 Gobardanga Hindu College, Dept. of Physics, Gobardanga, 24 Pgs. (north), West Bengal, India;   Gobardanga Hindu Coll.;   Gobardanga Hindu Coll.;   IN;   Gobardanga;   ;   ;
 Hebei University of Engineering (HUE), 199 Guangming South Street, Hanshan district, Handan, Hebei, 056038;   Hebei U. Eng.,Handan;   NONE;   CN;   Handan;   ;   grid.412028.d;
 Hebei University of Engineering (HUE), 199 Guangming South Street, Hanshan district, Handan, Hebei, 056038, China;   Hebei U. Eng.,Handan;   NONE;   CN;   Handan;   ;   grid.412028.d;
-The James Franck Institute, University of Chicago, Chicago, IL  60637;   James Franck Inst.;   Chicago U. James Franck Inst.;   US;   Chicago;   ;   grid.170205.1;
-The James Franck Institute, University of Chicago, Chicago, IL  60637, USA;   James Franck Inst.;   Chicago U. James Franck Inst.;   US;   Chicago;   ;   grid.170205.1;
-University of Chicago, The James Franck Institute, Chicago, IL  60637;   James Franck Inst.;   Chicago U. James Franck Inst.;   US;   Chicago;   ;   grid.170205.1;
-University of Chicago, The James Franck Institute, Chicago, IL  60637, USA;   James Franck Inst.;   Chicago U. James Franck Inst.;   US;   Chicago;   ;   grid.170205.1;
+United States Naval Observatory (USNO), U.S. Naval Observatory (USNO), Department of the Navy, 3450 Massachusetts Avenue, NW, Washington, DC 20392-5420;   Naval Observ., Wash., D.C.;   Naval Obs. Washington;   US;   Washington;   ;   grid.440354.2;
+United States Naval Observatory (USNO), U.S. Naval Observatory (USNO), Department of the Navy, 3450 Massachusetts Avenue, NW, Washington, DC 20392-5420, USA;   Naval Observ., Wash., D.C.;   Naval Obs. Washington;   US;   Washington;   ;   grid.440354.2;
 New England Electric, Boston, MA 02199;   New England Electric;   NONE;   US;   Boston;   ;   ;
 New England Electric, Boston, MA 02199, USA;   New England Electric;   NONE;   US;   Boston;   ;   ;
 Gaziosmanpasa University, AB Ofis 60240 Tokat;   Gaziosmanpasa U.;   Tokat Gazsiomanpasa U.;   TR;   Tokat;   ;   ;
@@ -9607,6 +9603,8 @@ Kabi Samrat Upendra Bhanja College, STD Bhanjanagar, 06821, India;   K.S.U.B. Co
 CHU Pitie, Dept. de Neurophysiologie, 91, Blvd. de l'Hopital, F-75013 Paris, France;   CHU Pitie, Paris;   NONE;   FR;   Paris;   ;   ;
 Tohoku Inst. Tech., Dept. of Physics, Nagamachi-Koeji, Sendai, Miyagi 982, Japan;   Tohoku Inst. Tech.;   Sendai Tohoku Inst. Technol.;   JP;   Sendai-shi;   ;   ;
 Tohoku Inst. Tech., Dept. of Physics, Nagamachi-Koeji, Sendai, Miyagi 982, Japan, Sendai-shi;   Tohoku Inst. Tech.;   Sendai Tohoku Inst. Technol.;   JP;   Sendai-shi;   ;   ;
+Guangdong Technion-Israel Institute of Technology (GTIIT), 241 Daxue Road, Jinping Qu, Shantou, Guangdong 515063;   GTIIT, Shantou;   NONE;   CH;   Shantou;   ;   grid.499254.7;
+Guangdong Technion-Israel Institute of Technology (GTIIT), 241 Daxue Road, Jinping Qu, Shantou, Guangdong 515063, China;   GTIIT, Shantou;   NONE;   CH;   Shantou;   ;   grid.499254.7;
 Université de Lorraine, 34 cours Léopold - CS 25233, F-54052 Nancy cedex;   U. Lorraine;   NONE;   FR;   Nancy;   ;   ;
 Universite de Lorraine, 34 cours Leopold - CS 25233, F-54052 Nancy cedex;   U. Lorraine;   NONE;   FR;   Nancy;   ;   ;
 Université de Lorraine, 34 cours Léopold - CS 25233, F-54052 Nancy cedex, France;   U. Lorraine;   NONE;   FR;   Nancy;   ;   ;
@@ -11594,6 +11592,10 @@ Deutsches Inst. Normung, D-10178 Berlin, Germany;   Berlin, DIN;   Berlin Deutsc
 Ho Chi Minh City Education University, 280 An Duong Vuong, District 5, Ho Chi Minh City, Vietnam;   HCMC Education U.;   NONE;   VN;   Ho Chi Minh City;   ;   ;
 Korea Cancer Center Hospital, 215-4 Gongneung-dong, Nowon-Ku, 139-706 Seoul;   Korea Cancer Ctr. Hosp.;   Seoul Korea Cancer Cent. Hosp.;   KR;   Seoul;   ;   ;
 Hochschule Regensburg add University of Applied Sciences, Prufeninger Strasse 58, D-93025 Regensburg, Germany;   Hochschule Regensburg;   NONE;   DE;   Regensburg;   ;   ;
+Scuola Superiore Meridionale di Napoli (SSM), Largo S. Marcellino, 10, 80138 Napoli;   SSM, Naples;   NONE;   IT;   Naples;   ;   ;
+Scuola Superiore Meridionale di Napoli (SSM), Largo S. Marcellino, 10, 80138 Napoli, Italy;   SSM, Naples;   NONE;   IT;   Naples;   ;   ;
+Scuola Superiore Meridionale di Napoli (SSM), Largo S. Marcellino, 10, 80138 Napoli, 80138 Naples, Italy;   SSM, Naples;   NONE;   IT;   Naples;   ;   ;
+Scuola Superiore Meridionale di Napoli (SSM), Largo S. Marcellino, 10, 80138 Napoli, 80138 Naples;   SSM, Naples;   NONE;   IT;   Naples;   ;   ;
 Astronomisches Institut, Universität Bern, Sidlerstrasse 5, CH-3012 Bern;   Bern U., AIUB;   Bern U. Astron.;   CH;   Bern;   ;   ;
 Astronomisches Institut, Universitat Bern, Sidlerstrasse 5, CH-3012 Bern;   Bern U., AIUB;   Bern U. Astron.;   CH;   Bern;   ;   ;
 Astronomisches Institut, Universität Bern, Sidlerstrasse 5, CH-3012 Bern, Switzerland;   Bern U., AIUB;   Bern U. Astron.;   CH;   Bern;   ;   ;
@@ -13704,6 +13706,8 @@ Suri Vidyasagar College, Suri, Birbhum, West Bengal, India;   Suri Vidyasagar Co
 Laboratoire de Physique des Lasers, Atomes et Molécules (PhLAM), Laboratoire de Physique des Lasers, Atomes, et Molecules, CNRA UMR 8523, CERLA, Bat-P5, U. Sci. Tech. Lille, F-59655 Villeneuve d'Ascq cedex France;   PhLAM, Villeneuve d'Ascq;   NONE;   FR;   Villeneuve d'Ascq;   ;   grid.462765.4;
 Laboratoire de Physique des Lasers, Atomes et Molecules (PhLAM), Laboratoire de Physique des Lasers, Atomes, et Molecules, CNRA UMR 8523, CERLA, Bat-P5, U. Sci. Tech. Lille, F-59655 Villeneuve d'Ascq cedex France;   PhLAM, Villeneuve d'Ascq;   NONE;   FR;   Villeneuve d'Ascq;   ;   grid.462765.4;
 Laboratoire de Biochimie et Biophysique des Systemes Integres, CEA-DSV/iRTSV/LBBSI, CEA Grenoble, 17 rue des Martyrs, F-38054 Grenoble Cedex 9, France;   LBBSI, Grenoble;   NONE;   FR;   Grenoble;   ;   ;
+ShanghaiTech University (Shanghaitech), 100 Haike Road, Pudong, Shanghai, 201210;   Shanghaitech, Shanghai;   NONE;   CN;   Shanghai;   ;   grid.440637.2;
+ShanghaiTech University (Shanghaitech), 100 Haike Road, Pudong, Shanghai, 201210, China;   Shanghaitech, Shanghai;   NONE;   CN;   Shanghai;   ;   grid.440637.2;
 Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506-0055;   Kentucky U.;   Kentucky U. Lexington;   US;   Lexington;   CORE;   grid.266539.d;
 Department of Physics and Astronomy, University of Kentucky, Lexington, KY 40506-0055, USA;   Kentucky U.;   Kentucky U. Lexington;   US;   Lexington;   CORE;   grid.266539.d;
 University of Kentucky, Department of Physics and Astronomy, Lexington, KY 40506-0055;   Kentucky U.;   Kentucky U. Lexington;   US;   Lexington;   CORE;   grid.266539.d;
@@ -14783,7 +14787,7 @@ Universita della Calabria, Campus di Arcavacata, via Pietro Bucci, I-87036 Arcav
 M.D. Anderson Hospital and Tumor Institute, Dept. of Physics, Houston, TX 77030;   Anderson Hospital, Houston;   Anderson Hosp. Houston;   US;   Houston;   ;   ;
 M.D. Anderson Hospital and Tumor Institute, Dept. of Physics, Houston, TX 77030, USA;   Anderson Hospital, Houston;   Anderson Hosp. Houston;   US;   Houston;   ;   ;
 Joint Laboratory of Optics, Palacky University & Physical Institute, of the Acad. of Sci. of The Czech Repub., 17. listopadu 50, 772 07 Olomouc, CZECH Republic;   Joint Lab. Optics, Olomouc;   NONE;   CZ;   Olomouc;   ;   ;
-Aichi Inst. of Technology, Dept. of Physics, Toyota, Aichi 470-03, Japan;   Aichi Inst. Tech.;   Aichi Inst. Technol.;   JP;   Toyota;   ;   ;
+Aichi Inst. of Technology, Dept. of Physics, Toyota, Aichi 470-03, Japan;   Aichi Inst. Tech.;   Aichi Inst. Technol.;   JP;   Toyota;   ;   grid.417799.5;
 Birsk Pedagogical Inst., Dept. of Physics, Birsk, Russia;   Birsk Pedagogical Inst.;   Birsk State Pedag. Inst.;   RU;   Birsk;   ;   ;
 Faculdades Integradas de Guarulhos, Fundacao Valeparaibana de Ensino, Praca Candido Dias Castejon 116, 12245 Sao Jose dos Campos, Sao Paulo, Brazil;   FIG, Sao Jose dos Campos;   NONE;   BR;   Sao Jose dos Campos;   ;   ;
 Thinking Machines Corp., 245 First St., Cambridge, MA 02144;   Thinking Machines, Cambridge;   Thinking Mach. Cambridge;   US;   Cambridge;   ;   ;
@@ -16998,10 +17002,7 @@ Fayoum University, El-Fayoum, Egypt;   Fayoum U.;   Fayoum U.;   TR;   El-Fayoum
 Univ. Coll. of Kalmar, Dept. of Physics, Box 905, S-39129 Kalmar, Sweden;   Kalmar U.;   Kalmar U.;   SE;   Kalmar;   ;   ;
 EEV Ltd., Water House Lane, Chelmsford, Essex CM1 2QU, England;   EEV Ltd.;   EEV Chelmsford;   UK;   Essex;   ;   ;
 EEV Ltd., Water House Lane, Chelmsford, Essex CM1 2QU, England, United Kingdom;   EEV Ltd.;   EEV Chelmsford;   UK;   Essex;   ;   ;
-Key Laboratory of Space Environment Monitoring and Information Processing (KLSEMIP), Key Laboratory of Space Environment Monitoring and Information Processing, Ministry of Industry and Information Technology;   KLSEMIP, Beijing;   NONE;   CN;   Beijing;   ;   ;
-Key Laboratory of Space Environment Monitoring and Information Processing (KLSEMIP), Key Laboratory of Space Environment Monitoring and Information Processing, Ministry of Industry and Information Technology, China;   KLSEMIP, Beijing;   NONE;   CN;   Beijing;   ;   ;
-Key Laboratory of Space Environment Monitoring and Information Processing (KLSEMIP), Key Laboratory of Space Environment Monitoring and Information Processing, Ministry of Industry and Information Technology, Beijing, China;   KLSEMIP, Beijing;   NONE;   CN;   Beijing;   ;   ;
-Key Laboratory of Space Environment Monitoring and Information Processing (KLSEMIP), Key Laboratory of Space Environment Monitoring and Information Processing, Ministry of Industry and Information Technology, Beijing;   KLSEMIP, Beijing;   NONE;   CN;   Beijing;   ;   ;
+Key Laboratory of Space Environment Monitoring and Information Processing (KLSEMIP), Key Laboratory of Space Environment Monitoring and Information Processing,, Beijing, 100191, China;   KLSEMIP, Beijing;   NONE;   CN;   ;   ;   ;
 Institute of Microelectronics and Informatics, Russian Academy of Sciences, 21, Universitetskaya Str.;   Inst. Microelect. Informatics;   NONE;   RU;   Yaroslavl;   ;   ;
 Institute of Microelectronics and Informatics, Russian Academy of Sciences, 21, Universitetskaya Str., Yaroslavl;   Inst. Microelect. Informatics;   NONE;   RU;   Yaroslavl;   ;   ;
 NII Polimer, Dzherzhinsk, Russia;   NII Polimer, Dzherzhinsk;   Dzerzhinsk Inst Polymer;   RU;   Dzherzhinsk;   ;   ;
@@ -17181,14 +17182,11 @@ Republic Center of Technical Creativity, of Pupils, 12 Makaionak Street, Minsk  
 Galatasaray University, Ciragan Caddesi No. 102, 80840 Ortakoy-Istanbul, Turkey;   Galatasaray U.;   Istanbul Galatasaray U.;   TR;   Istanbul;   ;   ;
 Bowie State College, Dept. of Science, Bowie, MD 20715;   Bowie State Coll.;   Bowie State Coll.;   US;   Bowie;   ;   ;
 Bowie State College, Dept. of Science, Bowie, MD 20715, USA;   Bowie State Coll.;   Bowie State Coll.;   US;   Bowie;   ;   ;
-The Kadanoff Center for Theoretical Physics, The University of Chicago, 933 East 56th St, Fourth Floor, 60637 Chicago, IL;   KTCP, Chicago;   NONE;   USA;   Chicago;   CORE;   grid.170205.1;
-The Kadanoff Center for Theoretical Physics, The University of Chicago, 933 East 56th St, Fourth Floor, 60637 Chicago, IL, United States;   KTCP, Chicago;   NONE;   USA;   Chicago;   CORE;   grid.170205.1;
-The University of Chicago, The Kadanoff Center for Theoretical Physics, 933 East 56th St, Fourth Floor, 60637 Chicago, IL;   KTCP, Chicago;   NONE;   USA;   Chicago;   CORE;   grid.170205.1;
-The University of Chicago, The Kadanoff Center for Theoretical Physics, 933 East 56th St, Fourth Floor, 60637 Chicago, IL, United States;   KTCP, Chicago;   NONE;   USA;   Chicago;   CORE;   grid.170205.1;
 Francois-Xaiver Bagnoud Observatory, 3961 St-Luc, Switzerland;   Francois-Xavier Bagnoud Observ.;   NONE;   CH;   St-Luc;   ;   ;
 National Solar Observatory, P.O. Box 62, Sunspot, NM  88349;   Natl. Solar Observ., Sacramento Peak;   NONE;   US;   Sunspot;   ;   ;
 National Solar Observatory, P.O. Box 62, Sunspot, NM  88349, USA;   Natl. Solar Observ., Sacramento Peak;   NONE;   US;   Sunspot;   ;   ;
 National Institute of Information and Communications Technology (NICT), National Institute of Information and Co, 4-2-1 Nukui-Kitamachi, Koganei, Tokyo, 184-8795 Japan;   NICT, Koganei;   Koganei NICT;   JP;   Koganei;   ;   ;
+National Institute of Technology Calicut (NITC), NIT Campus P.O 673 601, Kozhikode, India, 673 601 Kozhikode;   NIT, Calicut;   NONE;   IN;   Kozhikode;   ;   grid.419656.9;
 Complex and Adaptive Systems Laboratory, University College Dublin, 8 Belfield Office Park, Beaver Row, Clonskeagh, Dublin 4, Ireland;   University Coll., Dublin, CASL;   NONE;   IE;   Dublin;   ;   ;
 Department of Science and Technology, Private Bag X894, Pretoria, South Africa;   Pretoria, Dep. Sci. Technol.;   Pretoria Dep. Sci. Technol.;   ZA;   Pretoria;   ;   ;
 The University of Mazandran (UMZ), Pasdaran Street, 47415, P.O. Box: 416, Babolsar, Iran;   Mazandaran U., Babolsar;   Babolsar Mazandaran U.;   IR;   Babolsar;   CORE;   grid.411622.2;
@@ -20700,6 +20698,10 @@ University of Newcastle, University of Newcastle, Newcastle, NSW 2308, Australia
 Ming Chi University of Technology, 84 Gungjuan RD, Taishan, Taipei, Taiwan 243, R.O.C.;   Taishan, Ming Chi U. Technol.;   Taishan Ming Chi U. Technol.;   TW;   Taishan;   ;   ;
 EMI Electron Tubes, Ruislip, HA4 7TA, England;   EMI Electron Tubes, Ruislip;   EMI Electron Tubes Ruislip;   UK;   Ruislip;   ;   ;
 EMI Electron Tubes, Ruislip, HA4 7TA, England, United Kingdom;   EMI Electron Tubes, Ruislip;   EMI Electron Tubes Ruislip;   UK;   Ruislip;   ;   ;
+Laboratoire des Multimatériaux et Interfaces (LMI), 6 rue Victor Grignard, F-69622 Villeurbanne;   LMI, Lyon;   NONE;   FR;   Villeurbanne;   ;   ;
+Laboratoire des Multimateriaux et Interfaces (LMI), 6 rue Victor Grignard, F-69622 Villeurbanne;   LMI, Lyon;   NONE;   FR;   Villeurbanne;   ;   ;
+Laboratoire des Multimatériaux et Interfaces (LMI), 6 rue Victor Grignard, F-69622 Villeurbanne, France;   LMI, Lyon;   NONE;   FR;   Villeurbanne;   ;   ;
+Laboratoire des Multimateriaux et Interfaces (LMI), 6 rue Victor Grignard, F-69622 Villeurbanne, France;   LMI, Lyon;   NONE;   FR;   Villeurbanne;   ;   ;
 National Radio Astronomy Observatory (NRAO), PO Box 2, Green Bank, WV 24944;   NRAO, Green Bank;   Nat. Radio Astron. Obs. Green Bank;   US;   Green Bank;   ;   ;
 National Radio Astronomy Observatory (NRAO), PO Box 2, Green Bank, WV 24944, USA;   NRAO, Green Bank;   Nat. Radio Astron. Obs. Green Bank;   US;   Green Bank;   ;   ;
 Naval Research Lab, Underwater Sound Reference Detachment, Orlando, FL 32806;   Naval Research Lab, Orlando;   Naval Lab. Orlando;   US;   Orlando;   ;   ;
@@ -22495,6 +22497,8 @@ Institute of High-Energy Physics - Madagascar, University of Antananarivo, Amboh
 Chadron State College, Department of Mathematics & Science, 1000 Main Street, Chadron, NE  69337;   Chadron State Coll.;   NONE;   US;   Chadron;   ;   ;
 Chadron State College, Department of Mathematics & Science, 1000 Main Street, Chadron, NE  69337, USA;   Chadron State Coll.;   NONE;   US;   Chadron;   ;   ;
 Center for Research and Exploration in, Space Science and Technology, Goddard Space Flight Center, Greenbelt, MD  20771   USA;   CRESST, Greenbelt;   CRESST Greenbelt;   US;   Greenbelt;   ;   ;
+Shanghai Research Center for Quantum Sciences (SRCQS), Shanghai Research Center for Quantum Sciences, Shanghai, 201315;   SRCQS, Shanghai;   NONE;   CN;   Shanghai;   ;   ;
+Shanghai Research Center for Quantum Sciences (SRCQS), Shanghai Research Center for Quantum Sciences, Shanghai, 201315, China;   SRCQS, Shanghai;   NONE;   CN;   Shanghai;   ;   ;
 Kaliningrad State Technical University (KSTU), 1 Sovietsky prospect, 236022 Kaliningrad;   Kaliningrad State Tech. U.;   NONE;   RU;   ;   ;   ;
 Kaliningrad State Technical University (KSTU), 1 Sovietsky prospect, 236022 Kaliningrad, Russia;   Kaliningrad State Tech. U.;   NONE;   RU;   ;   ;   ;
 Department of Physics, Texas Tech University, Campus Box 41051, Lubbock, TX 79409-1051;   Texas Tech.;   Texas Tech. U. Lubbock;   US;   Lubbock;   CORE;   ;
