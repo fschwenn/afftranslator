@@ -6,7 +6,7 @@ from afftranslator2 import *
 starttime = time.clock()
 
 
-generateknowledgebase('aff-translator-old.pickle',True)
+#generateknowledgebase('aff-translator-old.pickle',True)
 generateknowledgebase('aff-translator.pickle',True)
 #generateknowledgebase('aff-translator.pickle',False)
 

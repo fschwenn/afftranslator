@@ -33,8 +33,8 @@ from operator import mul
 import traceback
 #from sets import Set
 
-from invenio.search_engine import search_pattern
-from invenio.search_engine import get_most_popular_field_values
+#from invenio.search_engine import search_pattern
+#from invenio.search_engine import get_most_popular_field_values
 
 
 
@@ -555,9 +555,11 @@ def generateknowledgebase(file, forced):
         inf.close()
     newicns = set([])
     if file  == 'aff-translator-old.pickle':
-        databasefil = open(knowledgebasepath+'/aff-dlu-from-inspire-old.afb')
+        #databasefil = open(knowledgebasepath+'/aff-dlu-from-inspire-old.afb')
+        databasefil = open(knowledgebasepath+'/aff-dlu-from-labs-old.afb')
     else:
-        databasefil = open(knowledgebasepath+'/aff-dlu-from-inspire.afb')
+        #databasefil = open(knowledgebasepath+'/aff-dlu-from-inspire.afb')
+        databasefil = open(knowledgebasepath+'/aff-dlu-from-labs.afb')
     databaseentries = map(tgstrip, databasefil.readlines())
     databasefil.close()
     databasefil = codecs.open(knowledgebasepath+'/sj.afb', encoding='utf-8', mode='r')
