@@ -32,10 +32,14 @@ from itertools import imap
 from operator import mul
 import traceback
 #from sets import Set
+import urllib
+import requests
 
 #from invenio.search_engine import search_pattern
 #from invenio.search_engine import get_most_popular_field_values
 
+#inspire api
+INSPIRE_API_ENDPOINT = "https://inspirehep.net/api/literature?q="
 
 
 #settings
@@ -367,7 +371,7 @@ regexpsnormaff1 = [(re.compile(r'(?i)( |\-)U\.? '), ' _UNI '),
                    (re.compile('(?i) Comput\w*? '), ' _COM '),
                    (re.compile('(?i) Radio\w*? '), ' _RAD '),
                    (re.compile('(?i) Mec[ch]ani\w*? '), ' _MEC '),
-                   (re.compile('(?i) Mech\.? '), ' _MEC '),
+                   (re.compile('(?i) Mech\.? '), ' _MEnC '),
                    (re.compile('(?i) Educa[ct]\w*? '), ' _EDU '),
                    (re.compile('(?i) Educ\.? '), ' _EDU '),
                    (re.compile(u'(?i) P[eä]dagog '), ' _PED '),
@@ -582,7 +586,7 @@ def generateknowledgebase(file, forced):
             sjset = sjset1
         else:
             sjset = sjset2
-    databaseentries.extend(sjset)
+    #XXXdatabaseentries.extend(sjset)
     databasefil.close()
     #databasefil = codecs.open(knowledgebasepath+'/wrongicns.afb', encoding='utf-8', mode='r')
     #databaseentries.extend(map(tgstrip, databasefil.readlines()))
@@ -592,6 +596,7 @@ def generateknowledgebase(file, forced):
     databasefil.close()
     i=1
     print "generating icndictionary..."
+    sou = 'INST'
     for entry in databaseentries:
         if regexphash.search(entry):
             sou = regexphash.sub('', entry)
@@ -619,7 +624,7 @@ def generateknowledgebase(file, forced):
                         newicns.add(icn)
                 else:
                     try:
-                        if len(parts) > 4:
+                        if len(parts) > 5:
                             icndictionary[icn] = standardinstitute(icn, parts[2], parts[0], parts[4], parts[3], sou, parts[5])
                             newicns.add(icn)
                         else:
@@ -660,7 +665,7 @@ def generateknowledgebase(file, forced):
                             newicns.add(icn)
                     except:
                         try:
-                            print '[!]','(((%s)))' % (icn), entry
+                            print '[!]','(((%s)))' % (icn), entry, icndictionary.has_key(entry[0])                     
                         except:
                             print '[!] not able to print no.', i
             i += 1
@@ -2049,11 +2054,16 @@ class standardinstitute(institute):
         else:
             self.countries = set([cou])
         #papercount
-        icrequest = "100__u:\""
+        icrequest = 'fin aff "'
         ics = regexpsemikolonicns.split(ic)
-        for singic in ics:
-            icrequest += singic + "\" and 100__u:\""
-        self.logpapercount = math.log(len(search_pattern(p=icrequest[0:-13]))+.1)
+        icrequest += '" or aff "'.join(ics)
+        icrequest += '"'
+        icrequest = re.sub("'", '%27', icrequest)
+        response = requests.get(INSPIRE_API_ENDPOINT + icrequest + "&author_count=Single%20author")
+        response.raise_for_status()
+        content = response.json()
+        content['hits']['total']                            
+        self.logpapercount = math.log(content['hits']['total']+.1)
     #add an alternative writing of the affiliation
     def addvariation(self, aff, cit, cou, sou):
         self.sources.add(sou)
