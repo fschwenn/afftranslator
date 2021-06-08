@@ -32,6 +32,7 @@ from itertools import imap
 from operator import mul
 import traceback
 #from sets import Set
+import time
 import urllib
 import requests
 
@@ -467,6 +468,7 @@ def resolvecityambiguities():
     FILREPORT = codecs.open(tmppath + '/afftranslatorreport2', encoding='utf-8', mode='a+')
     #pairs are of form (city-name in plain string, city to also check)
     pairs = set([("Essen", "Duisburg"), ("Delhi", "New-Delhi"), ("New-Delhi", "Delhi"),
+                 ("Golm", "Potsdam"),
                  ("Wonju", "Gangneung-City"), ("Clermont", "Aubiere"), ("Saint-Jean", "Edmonton")])
     #find city in affiliation string
     for icn in icndictionary:
@@ -586,7 +588,7 @@ def generateknowledgebase(file, forced):
             sjset = sjset1
         else:
             sjset = sjset2
-    #XXXdatabaseentries.extend(sjset)
+    databaseentries.extend(sjset)
     databasefil.close()
     #databasefil = codecs.open(knowledgebasepath+'/wrongicns.afb', encoding='utf-8', mode='r')
     #databaseentries.extend(map(tgstrip, databasefil.readlines()))
@@ -596,6 +598,10 @@ def generateknowledgebase(file, forced):
     databasefil.close()
     i=1
     print "generating icndictionary..."
+    #completely unknown institute
+    icndictionary['Unlisted'] = standardinstitute(u'Unlisted', u'unlisted', u'Unlisted', u'', u'XX', u'INST', u'')
+    unlisted[u'XX'] = set([u'Unlisted'])
+    unlisted[u'NONE'] = set([u'Unlisted'])
     sou = 'INST'
     for entry in databaseentries:
         if regexphash.search(entry):
@@ -623,7 +629,7 @@ def generateknowledgebase(file, forced):
                     elif regexpsemikolon.search(icn):
                         newicns.add(icn)
                 else:
-                    try:
+#A                    try:
                         if len(parts) > 5:
                             icndictionary[icn] = standardinstitute(icn, parts[2], parts[0], parts[4], parts[3], sou, parts[5])
                             newicns.add(icn)
@@ -632,6 +638,13 @@ def generateknowledgebase(file, forced):
                             tcc = ''
                             tcity = ''
                             tcore = ''
+                            allicnsexist = True
+                            for sicn in regexpsemikolonicns.split(icn):
+                                if not sicn in icndictionary.keys():
+                                    allicnsexist = False
+                                    print ' ! "%s" of "%s" does not exist' % (sicn, icn)
+                            if not allicnsexist:
+                                continue
                             for sicn in regexpsemikolonicns.split(icn):
                                 #print ' [sicn] %s' % (sicn)
                                 inst = icndictionary[sicn]
@@ -663,17 +676,13 @@ def generateknowledgebase(file, forced):
                                     tcore = 'CORE'
                             icndictionary[icn] = standardinstitute(icn, tdlu, parts[0], tcity, tcc, sou, tcore)
                             newicns.add(icn)
-                    except:
-                        try:
-                            print '[!]','(((%s)))' % (icn), entry, icndictionary.has_key(entry[0])                     
-                        except:
-                            print '[!] not able to print no.', i
+#A                    except:
+#A                        try:
+#A                            print '[!]',i,'(((%s)))' % (icn), entry, icndictionary.has_key(entry[0])                     
+#A                        except:
+#A                            print '[!] not able to print no.', i
             i += 1
     i=1
-    #completely unknown institute
-    icndictionary['Unlisted'] = standardinstitute(u'Unlisted', u'unlisted', u'Unlisted', u'', u'XX', u'INST', u'')
-    unlisted[u'XX'] = set([u'Unlisted'])
-    unlisted[u'NONE'] = set([u'Unlisted'])
     print "finding omnipresent words and propagating informations to combinations..."
     #for icn in icndictionary:
     for icn in newicns:
@@ -2059,11 +2068,19 @@ class standardinstitute(institute):
         icrequest += '" or aff "'.join(ics)
         icrequest += '"'
         icrequest = re.sub("'", '%27', icrequest)
-        response = requests.get(INSPIRE_API_ENDPOINT + icrequest + "&author_count=Single%20author")
-        response.raise_for_status()
-        content = response.json()
-        content['hits']['total']                            
-        self.logpapercount = math.log(content['hits']['total']+.1)
+        ii = 1
+        while ii < 10:
+            try:
+                response = requests.get(INSPIRE_API_ENDPOINT + icrequest + "&author_count=Single%20author")
+                response.raise_for_status()
+                content = response.json()
+                content['hits']['total']                            
+                self.logpapercount = math.log(content['hits']['total']+.1)
+                ii = 666
+            except:
+                ii += 1
+                print '   [try %i for paper count of "%s"]' % (ii, ics)
+                time.sleep(10)
     #add an alternative writing of the affiliation
     def addvariation(self, aff, cit, cou, sou):
         self.sources.add(sou)
